@@ -10,7 +10,6 @@ export default function App({ Component, pageProps }) {
         <ThirdwebProvider desiredChainId={activeChainId}>
             <Component {...pageProps} />
         </ThirdwebProvider>
-        
     </>
 );
 }
